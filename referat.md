@@ -1,5 +1,6 @@
 # Markus Persson
 **Markus Persson** je švédský programátor v jazyce C++ a Java. Založil společnost Mojang Studios, která vyvíjí jednu z nejprodávanějších her na světě - *Minecraft*.
+![Markus Persson](https://en.wikipedia.org/wiki/Markus_Persson#/media/File:GDC_2016_awards_16-20_42_56-01-7D2_0739_(cropped).jpg)
 ___
 *Markus Alexej Persson* se narodil 1. června 1979 ve Stockholmu. Programuje již od svých 7 let. Svou první hru napsal, když mu bylo teprve 8 - dobrodružnou textovou hru. Už v nízkém věku věděl, že se chce stát programátorem videoher. 
 
