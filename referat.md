@@ -15,3 +15,5 @@ Zdroje:
 - https://cs.wikipedia.org/wiki/Markus_Persson
 - https://en.wikipedia.org/wiki/Markus_Persson
 - https://en.wikipedia.org/wiki/Mojang_Studios
+___
+Úprava pomocí klíče
