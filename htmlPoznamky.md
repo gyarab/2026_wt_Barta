@@ -13,4 +13,4 @@
 - **`<p>`** - odstavec (paragraph)
 - **`<h1>`** - nadpis 1. úrovně (headline)
 - **`<a>`** - kotva (anchor) - odkaz
-- test, test
+- test
