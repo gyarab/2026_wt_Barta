@@ -14,10 +14,11 @@
 - **`<h1>`** - nadpis 1. úrovně (headline)
 - **`<a>`** - kotva (anchor) - odkaz
 ---
+
 ## 16.10.2026
 - *html:5* - zkratka, která vygeneruje základní strukturu ve VS Code
 - **`<strong>`** - text silně
-- **Bootstrap** - z CDN - ohromná knihovna nápadů
+- **Bootstrap** - z CDN
   - *CSS* do **`<head>`**
   - *JS* před konec **`</head>`**
   - Udělá *CSS* reset - aby se stránka ve všech prohlížečích a operačních systémech zobrazovala stejně
@@ -25,6 +26,9 @@
 - HTML elementy:
   - Řádkový (inline) - ten, který je v toku textu
     - **`<Span>`** - nevizuální
-  - Block (block) - dává pod sebe
+  - Blokový (block) - dává pod sebe
     - **`<Div>`** - nevizuální
 - **`<Div>`** - třída
+---
+
+## 23.10.2026
