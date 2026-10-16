@@ -15,3 +15,16 @@
 - **`<a>`** - kotva (anchor) - odkaz
 ---
 ## 16.10.2026
+- *html:5* - zkratka, která vygeneruje základní strukturu ve VS Code
+- **`<strong>`** - text silně
+- **Bootstrap** - z CDN - ohromná knihovna nápadů
+  - *CSS* do **`<head>`**
+  - *JS* před konec **`</head>`**
+  - Udělá *CSS* reset - aby se stránka ve všech prohlížečích a operačních systémech zobrazovala stejně
+  - vícesloupcový design - grid a flex
+- HTML elementy:
+  - Řádkový (inline) - ten, který je v toku textu
+    - **`<Span>`** - nevizuální
+  - Block (block) - dává pod sebe
+    - **`<Div>`** - nevizuální
+- **`<Div>`** - třída
