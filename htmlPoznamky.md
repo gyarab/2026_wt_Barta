@@ -20,7 +20,7 @@
 - **`<strong>`** - text silně
 - **Bootstrap** - z CDN
   - *CSS* do **`<head>`**
-  - *JS* před konec **`</head>`**
+  - *JS* před konec **`</body>`**
 - HTML elementy:
   - Řádkový (inline) - ten, který je v toku textu
     - **`<Span>`** - nevizuální
@@ -30,5 +30,6 @@
 ---
 - **`<ul>`** - odrážkový seznam
   - **`<li>`** - jednotlivé položky
+---
 
 ## 23.10.2026
