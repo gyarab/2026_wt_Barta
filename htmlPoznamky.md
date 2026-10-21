@@ -21,8 +21,6 @@
 - **Bootstrap** - z CDN
   - *CSS* do **`<head>`**
   - *JS* před konec **`</head>`**
-  - Udělá *CSS* reset - aby se stránka ve všech prohlížečích a operačních systémech zobrazovala stejně
-  - vícesloupcový design - grid a flex
 - HTML elementy:
   - Řádkový (inline) - ten, který je v toku textu
     - **`<Span>`** - nevizuální
@@ -30,5 +28,7 @@
     - **`<Div>`** - nevizuální
 - **`<Div>`** - třída
 ---
+- **`<ul>`** - odrážkový seznam
+  - **`<li>`** - jednotlivé položky
 
 ## 23.10.2026
