@@ -21,6 +21,7 @@
 - **Bootstrap** - z CDN
   - *CSS* do **`<head>`**
   - *JS* před konec **`</body>`**
+  - https://getbootstrap.com/docs/6.0/getting-started/install/
 - HTML elementy:
   - Řádkový (inline) - ten, který je v toku textu
     - **`<Span>`** - nevizuální
