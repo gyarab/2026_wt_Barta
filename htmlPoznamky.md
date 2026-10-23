@@ -24,7 +24,7 @@
   - https://getbootstrap.com/docs/6.0/getting-started/install/
 - HTML elementy:
   - Řádkový (inline) - ten, který je v toku textu
-    - **`<Span>`** - nevizuální
+    - **`<Span>`** - nevizuální (neviditelné - nemají vizuální reprezentaci)
   - Blokový (block) - dává pod sebe
     - **`<Div>`** - nevizuální
 - **`<Div>`** - třída
@@ -34,3 +34,10 @@
 ---
 
 ## 23.10.2026
+- **`<img>`** - obrázek
+  - odkaz *src=""*
+  - alternativní text (pokud nelze načíst) *alt=""* - musí tam být
+  - Bootstrap - *class="img-fluid"* - obrázek se přizpůsobuje webu
+---
+
+##  7.11.2026
