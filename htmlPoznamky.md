@@ -39,5 +39,7 @@
   - alternativní text (pokud nelze načíst) *alt=""* - musí tam být
   - Bootstrap - *class="img-fluid"* - obrázek se přizpůsobuje webu
 ---
+- **`<div class="container-fluid bg-primary text-center p-5">`** - umístí do modrého boxu s odsazením
+---
 
 ##  7.11.2026
