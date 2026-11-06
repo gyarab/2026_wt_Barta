@@ -42,4 +42,8 @@
 - **`<div class="container-fluid bg-primary text-center p-5">`** - umístí do modrého boxu s odsazením
 ---
 
-##  7.11.2026
+##  6.11.2026
+- **`<ol>`** - číslovaný seznam
+---
+
+## 13.11.2026
