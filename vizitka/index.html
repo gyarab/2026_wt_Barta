@@ -13,10 +13,28 @@
         }
         body{
             background-color: rgb(255, 216, 216);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        .wrapper{
+        .vizitka{
             background-color: chartreuse;
-            padding: 0, auto;
+            border-radius: 10px;
+            padding: 40px;
+            align-items: center;
+        }
+        button{
+            padding: 20px 40px;
+            color:black;
+            border-radius: 5px;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
         }
     </style>
     <script>
@@ -26,14 +44,13 @@
     </script>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="vizitka">
         <h1><strong>Adam Bárta</strong></h1>
         <img class="img", src="https://lh3.googleusercontent.com/a/ACg8ocItU1yswrUScYJaITBAiZ5ZZVuTcKtrhGWKCgyq5N7NGIgQUg=s83-c-mo", alt="obrázek nenalezen">
         <h2>Základní informace</h2>
         <ul>
             <li>Věk: 16 let</li>
             <li>Email: adam.barta.s@gyarab.cz</li>
-            <li>Bydliště: Chýně</li>
         </ul>
         <button onclick="klik();">Oblíbené tlačítko</button>
     </div>
