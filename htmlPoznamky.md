@@ -47,3 +47,5 @@
 ---
 
 ## 13.11.2026
+- **`<main> <aside> <article`** - stejné, jako **`<div>`**, ale sémantické
+  - boti tomu budou lépe rozumět, používat se nemusí
