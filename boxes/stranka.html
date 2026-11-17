@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krabice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <style>
+        h1{
+            text-align: center;
+            margin: 20px 60px 0 0;
+        }
+        .hero{
+            margin: 60px 0;
+            align-items: center;
+        }
+        body{
+            background-color: rgb(149, 230, 250);
+        }  
+        h2{
+            text-align: center;
+        }
+        .galerie{
+            padding:20px 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar md:navbar-expand bg-1">
+      <div class="container">
+        <a class="navbar-brand" href="#">Balíkárna</a>
+        <button class="btn-icon navbar-toggler" type="button"
+                data-bs-toggle="drawer" data-bs-target="#menu" aria-label="Menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <dialog class="drawer drawer-end" id="menu">
+          <div class="drawer-header">
+            <h5 class="drawer-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Zavřít"></button>
+          </div>
+
+          <div class="drawer-body">
+            <ul class="nav navbar-nav md:ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="#">Domů</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+
+        <div class="container">
+            <h1><strong>Nejlevnější přepravní společnost na světě</strong></h1>
+            <div class="row row-cols-1 lg:row-cols-2 hero">
+                <img src="./img/hero.svg" alt="chyba">
+                <h2>Posílejte balík už od 1 kč</h2>
+            </div>
+            
+            <h2>Galerie</h2>
+            <div class="galerie">
+                <div class="row row-cols-2 md:row-cols-3 lg:row-cols-4 g-5">
+                    <img src="img/box1.svg " alt="chyba"> 
+                    <img src="img/box2.svg " alt="chyba">
+                    <img src="img/box3.svg " alt="chyba">
+                    <img src="img/box4.svg " alt="chyba">
+                    <img src="img/box5.svg " alt="chyba">
+                    <img src="img/box6.svg " alt="chyba">
+                    <img src="img/box7.svg " alt="chyba">
+                    <img src="img/box8.svg " alt="chyba">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -13,7 +13,6 @@
 - **`<p>`** - odstavec (paragraph)
 - **`<h1>`** - nadpis 1. úrovně (headline)
 - **`<a>`** - kotva (anchor) - odkaz
----
 
 ## 16.10.2026
 - *html:5* - zkratka, která vygeneruje základní strukturu ve VS Code
@@ -31,7 +30,6 @@
 ---
 - **`<ul>`** - odrážkový seznam
   - **`<li>`** - jednotlivé položky
----
 
 ## 23.10.2026
 - **`<img>`** - obrázek
@@ -40,12 +38,16 @@
   - Bootstrap - *class="img-fluid"* - obrázek se přizpůsobuje webu
 ---
 - **`<div class="container-fluid bg-primary text-center p-5">`** - umístí do modrého boxu s odsazením
----
 
 ##  6.11.2026
 - **`<ol>`** - číslovaný seznam
----
 
 ## 13.11.2026
 - **`<main>`** **`<aside>`** **`<article>`** - stejné, jako **`<div>`**, ale sémantické (popisné)
   - používat se nemusí
+---
+- **`<div class="row">`** - snaží se nacpat vše do řádku (obaluje   všechny prvky)
+  - Jednotlivé prvky mají **`<div class="col-X>`** - určuje počet zabraných míst ze řádku (12 míst je celý řádek)
+  - Jednodušeji: **`<div class="row row-cols-X>`** - počet sloupců na řádek (obaluje všechny prvky)
+
+## 20.11.2026

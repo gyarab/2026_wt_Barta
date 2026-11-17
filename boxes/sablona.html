@@ -16,6 +16,9 @@
             padding: 1rem;
             min-height: 80px;
         }
+        .body{
+            overflow-x: hidden;
+        }
     </style>
 </head>
 <body>
@@ -38,30 +41,68 @@
     <div class="container"><div class="krabice">container</div></div>
     <div class="container-fluid"><div class="krabice">container-fluid</div></div>
 
-    <p></p>
+    <p>Úkol 4a</p>
 
-    <div class="row" >
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">1</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">2</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">3</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">4</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">5</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">6</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">7</div>
-        <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">8</div>
-    </div>
-
-    <p></p>
-
-    <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4 g-5" >
-        <div class="krabice">1</div>
-        <div class="krabice">2</div>
-        <div class="krabice">3</div>
-        <div class="krabice">4</div>
-        <div class="krabice">5</div>
-        <div class="krabice">6</div>
-        <div class="krabice">7</div>
-        <div class="krabice">8</div>
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">1</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">2</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">3</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">4</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">5</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">6</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">7</div>
+            <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">8</div>
+        </div>
+    
+        <p>Úkol 4b, 4c</p>
+    
+        <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4 g-5" >
+            <div class="krabice">1</div>
+            <div class="krabice">2</div>
+            <div class="krabice">3</div>
+            <div class="krabice">4</div>
+            <div class="krabice">5</div>
+            <div class="krabice">6</div>
+            <div class="krabice">7</div>
+            <div class="krabice">8</div>
+        </div>
+    
+        <p>Úkol 5</p>
+    
+        <div class="row">
+            <main class="col-12 lg:col-8 krabice">Hlavní obsah</main>
+            <aside class="col-12 lg:col-4 krabice">Boční panel</aside>
+        </div>
+    
+        <p>Úkol 7</p>
+    
+        <div class="alert theme-warning md:d-none">Jsi na mobilu</div>
+        <div class="alert theme-info d-none lg:d-block">Jsi na velkém displeji</div>
+    
+        <p>Úkol 8</p>
+    
+        <nav class="navbar lg:navbar-expand bg-1">
+          <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="btn-icon navbar-toggler" type="button"
+                    data-bs-toggle="drawer" data-bs-target="#menu" aria-label="Menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <dialog class="drawer drawer-end" id="menu">
+              <div class="drawer-header">
+                <h5 class="drawer-title">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Zavřít"></button>
+              </div>
+              <div class="drawer-body">
+                <ul class="nav navbar-nav md:ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#">Domů</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#hra">Hra</a></li>
+                </ul>
+              </div>
+            </dialog>
+          </div>
+        </nav>
     </div>
 
     <!-- Bootstrap 6 – JS (je to ES modul => type="module") -->
