@@ -51,3 +51,8 @@
   - Jednodušeji: **`<div class="row row-cols-X>`** - počet sloupců na řádek (obaluje všechny prvky)
 
 ## 20.11.2026
+- **`<div class="order-X">`** - stanovuje pořadí
+- **`<div class="sticky-top>`** - objekt se nalepí na vrch a je vždy při ruce
+
+## 27.11.2026
+-
