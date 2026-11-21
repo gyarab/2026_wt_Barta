@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pexeso</title>
+    <link href="./Logo2(orez).png" rel="icon" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    
+    <style>
+        .navigator{
+            background-color: rgb(206, 217, 38);
+            padding: 5px;
+        }
+        .uvod{
+          text-align: center;
+          margin: 20px 0;
+        }
+        .hra{
+          margin: 20px 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar md:navbar-expand sticky-top navigator">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+              <img src="./Logo2(orez).png" alt="Logo" width="45" height="45">
+            </a>
+
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+
+            <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+
+              <div class="drawer-header">
+                <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+              </div>
+
+              <div class="drawer-body">
+                <ul class="navbar-nav">
+
+                  <li class="nav-item">
+                    <a class="theme-inverse btn-text" href="#">Úvod</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="theme-inverse btn-text" href="#">Hra</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="theme-inverse btn-text" href="#">Stats</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </dialog>
+
+        </div>
+    </nav>
+
+    <div class="container">
+      <div class="uvod">
+        <h1><strong>Pexeso</strong>
+        <h4>Zahrajte si pexeso! Poznejte a spojte vozidla MHD v praze</h4>
+      </div>
+
+      <div class="hra">
+        <div class="tlacitka grid grid-cols-1 md:grid-cols-2">
+
+          <button type="button" class="theme-inverse btn-outline" data-bs-toggle="dialog" data-bs-target="#exampleDialog">
+            Jak hrát
+          </button>
+
+          <dialog class="dialog" id="exampleDialog">
+            <div class="dialog-header">
+              <h1 class="dialog-title">Jak hrát</h1>
+            </div>
+
+            <div class="dialog-body">
+              <p>This is a native dialog element. It uses the browser’s built-in modal behavior for accessibility and focus management.</p>
+            </div>
+
+            <div class="dialog-footer">
+              <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Zavřít</button>
+            </div>
+
+          </dialog>
+
+          <button type="button" class="theme-inverse btn-outline">
+            Reset
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
