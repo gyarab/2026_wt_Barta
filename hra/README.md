@@ -1,10 +1,8 @@
 # Pexeso
 ## To Do:
 - Scroll:
- - Reakce na tlačítka v nav
- - Při použití dialog, zavřít nav
-- Zpravit ohraničení obrázků
-- Vytvořit mezeru mezi tlačítky
+  - Reakce na tlačítka v nav
+  - Při použití dialog, zavřít nav
 ## Použité zdroje:
 - https://www.youtube.com/watch?v=xKOyDDuQSVY&list=LL&index=13
 - https://www.w3schools.com/html/html_favicon.asp
