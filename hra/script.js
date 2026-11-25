@@ -9,7 +9,7 @@ for (let i = 0; i < 12; i++){
 
 let pokusu = 0; // počet otočení
 let posl_cislo = 0; // poslední otočené číslo, pokud sudý tah
-let lzeOtocitVse = true; // neaktivní blokace otáčení
+let lzeOtocitVse = true; // neaktivní blokace otáčení při přiřazení nesprávné dvojice
 
 // let karticky = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
 let karticky = ["52t", "KT8", "NB18", "RegioFox", "RegioPanter", "Trollino24", "52t", "KT8", "NB18", "RegioFox", "RegioPanter", "Trollino24"];
@@ -42,7 +42,7 @@ function otoc(cislo){
                     mista[posl_cislo].src = "./Karticky/zakryteLogoPexeso2.png";
                     mista[cislo].src = "./Karticky/zakryteLogoPexeso2.png";
                     lzeOtocitVse = true;
-                }, 500);
+                }, 800);
                 console.log("Karty zpět otočeny");
             }
             skore.innerHTML = pokusu / 2;
