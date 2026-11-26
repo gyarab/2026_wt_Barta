@@ -1,17 +1,17 @@
 let mista = [];
 const skore = document.getElementById("skore");
 const skoreFinal = document.getElementById("skoreFinal");
-console.log("Vítejte v trackovacím programu funkce otoc()");
 
 for (let i = 0; i < 12; i++){
     mista[i] = document.getElementById(i);
 }
 
 let pokusu = 0; // počet otočení
-let posl_cislo = 0; // poslední otočené číslo, pokud sudý tah
+
+let posl_cislo = 100;
+let prave_cislo = 100;
 let lzeOtocitVse = true; // neaktivní blokace otáčení při přiřazení nesprávné dvojice
 
-// let karticky = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
 let karticky = ["52t", "KT8", "NB18", "RegioFox", "RegioPanter", "Trollino24", "52t", "KT8", "NB18", "RegioFox", "RegioPanter", "Trollino24"];
 
 let noveKarticky = []; // zamíchaný seznam kartiček
@@ -19,52 +19,43 @@ let neotacet = []; // kartičky uhodnuté a které nelze otáčet zpět
 zamichat();
 
 function otoc(cislo){
-    console.log("Otáčím: " + cislo);
     if (lzeOtocit(cislo) == true && lzeOtocitVse == true){
-        console.log("Úspěšná autorizace");
-        console.log("Nyní nelze otáčet");
         lokace = "./Karticky/" + noveKarticky[cislo] + ".png";
         mista[cislo].src = lokace;
-        console.log("Otáčím");
         pokusu = pokusu + 1;
-        console.log("Nyní pokusů: " + pokusu);
 
         if (jeSuda(pokusu)){
-            console.log("Číslo je sudé - kontrola");
+            prave_cislo = cislo;
             if (noveKarticky[cislo] == noveKarticky[posl_cislo]){
                 neotacet.push(cislo, posl_cislo);
-                console.log("Karty jsou stejné -> již nesmí být otočeny");
                 zkontrolujHotovost();
+                console.log(neotacet);
             } else{
-                console.log("Karty nejsou stejné -> čekám");
                 lzeOtocitVse = false;
                 setTimeout(() => {
                     mista[posl_cislo].src = "./Karticky/zakryteLogoPexeso2.png";
                     mista[cislo].src = "./Karticky/zakryteLogoPexeso2.png";
                     lzeOtocitVse = true;
+                    posl_cislo = 100; 
+                    prave_cislo = 100;
                 }, 800);
-                console.log("Karty zpět otočeny");
             }
             skore.innerHTML = pokusu / 2;
         }
         else{
-            console.log("Číslo není sudé, pokračuji");
             posl_cislo = cislo;
-            console.log("Zaznamenávám poslední číslo: " + posl_cislo);
         }
-        console.log("Nyní lze znovu otáčet");
-        console.log(".");
     }
 
 }
 
 function lzeOtocit(cislo){
-    for(let i = 0; i < 12; i++){
-        if (neotacet.includes(cislo)){
-            return false;
-        }
+    if (neotacet.includes(cislo) || posl_cislo == cislo || prave_cislo == cislo){
+        return false;
     }
-    return true;
+    else{
+        return true;
+    }
 }
 
 function zkontrolujHotovost(){
