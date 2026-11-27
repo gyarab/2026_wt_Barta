@@ -55,11 +55,14 @@
 - **`<div class="sticky-top>`** - objekt se nalepí na vrch a je vždy při ruce
 
 ## 27.11.2026
-```
+```html
 <form>
   <input type="">
-- formulář: **`<form>`** a v něm 
-  - **`<input type="">`**
-    - může být: text, number, hidden, date
-  - **`<select>`**
-    - **`<option>`**
+```
+- může být: text, number, hidden, date, ...
+```html
+  <select>
+    <option>
+```
+
+## 4.12.2026
